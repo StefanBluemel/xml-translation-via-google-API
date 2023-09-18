@@ -12,4 +12,6 @@ pip install googletrans==4.0.0-rc1
 
 please pay attention to the rate limit of max. 5 request per seconds and up to 500.000 free characters per month that the google translation api can handle for free each month anything beyond that costs money (~20$ / 1 million Characters)
 
+There is no functionallity implemented as of now in this tool to make translations after reaching the free monthly limit. The google API will just return errors after hitting the limit.
+
 All devices in the same network will probably be blocked from using the program if the api limit is reached. So a workaround might be if several people use it from home office.
